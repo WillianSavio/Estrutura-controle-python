@@ -35,6 +35,9 @@ match opção_desejada:
         print(" === AUMENTO NA FATURA === ")
     case "5":
         print(" === OBRIGADO, ATÉ BREVE === ")
+    case _:
+        print(" === OPÇÃO INVALIDA ===")
+        
 
     
 
