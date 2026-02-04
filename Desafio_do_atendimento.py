@@ -17,6 +17,7 @@ print(" === BEM VINDO A SESSÃO DE ATENDIMENTO ===")
 print(" === ESCOLHA A OPÇÃO DESEJADA:")
 
 print (" 1 - FALAR COM ATENDENTE ")
+print (" 2 - SEGUNDA VIA DE BOLETO ")
 print (" 3 - CANCELAR SERVIÇO ")
 print (" 4 - INFORMAÇÕES SOBRE PLANOS ")
 print (" 5 - SAIR ")
@@ -25,13 +26,15 @@ opção_desejada = input (" DIGITE A OPÇÃO DESEJADA: ")
 
 match opção_desejada:
     case "1":
-        print(" AGUARDE, O ATENDENTE ESTARÁ DISPONÍVEL EM BREVE ")
+        print(" === AGUARDE, O ATENDENTE ESTARÁ DISPONÍVEL EM BREVE === ")
     case "2":
-        print(" ESTAMOS ENVIANDO ")
+        print(" === SEU BOLETO SERÁ ENCAMINHADO POR E-MAIL === ")
     case "3":
-        print(" SERVIÇO CANCELADO ")
+        print(" === SEU SERVIÇO ESTÁ SENDO CANCELADO === ")
     case "4":
-        print(" AUMENTO NA FATURA ")
+        print(" === AUMENTO NA FATURA === ")
     case "5":
-        print(" OK, MUITO OBRIGADO ")
+        print(" === OBRIGADO, ATÉ BREVE === ")
+
+    
 
