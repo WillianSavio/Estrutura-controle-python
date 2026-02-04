@@ -1,0 +1,37 @@
+
+# VARIAVEIS
+
+primeira_opção = ("FALAR COM ATENDENTE")
+segunda_opção = (" SEGUNDA VIA BO BOLETO ")
+terceira_opção = (" CANCELAR SERVIÇO ")
+quarta_opção = (" INFORMAÇÕES SOBRE PLANOS ")
+quinta_opção = (" SAIR ")
+opção_desejada = (" DIGITE A OPÇÃO DESEJADA: ")
+
+
+
+
+
+print(" === BEM VINDO A SESSÃO DE ATENDIMENTO ===")
+
+print(" === ESCOLHA A OPÇÃO DESEJADA:")
+
+print (" 1 - FALAR COM ATENDENTE ")
+print (" 3 - CANCELAR SERVIÇO ")
+print (" 4 - INFORMAÇÕES SOBRE PLANOS ")
+print (" 5 - SAIR ")
+
+opção_desejada = input (" DIGITE A OPÇÃO DESEJADA: ")
+
+match opção_desejada:
+    case "1":
+        print(" AGUARDE, O ATENDENTE ESTARÁ DISPONÍVEL EM BREVE ")
+    case "2":
+        print(" ESTAMOS ENVIANDO ")
+    case "3":
+        print(" SERVIÇO CANCELADO ")
+    case "4":
+        print(" AUMENTO NA FATURA ")
+    case "5":
+        print(" OK, MUITO OBRIGADO ")
+
