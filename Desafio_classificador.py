@@ -51,15 +51,17 @@ print("A - ATACAR")
 print("D - DEFENDER")
 print("F - FUGIR")
 
-ação = input("escolha uma opção:")
+ação = input("escolha uma opção:").upper()
+
+# UPPER (VAI CONVERTER O TEXTO PARA MAIUSCULO)
 
 
 match ação:
-    case "A" | "a":
+    case "A":
         print("=== VOCê AVANÇOU PARA O ATAQUE!! ===")
-    case "D" | "d":
+    case "D":
         print("=== VOCÊ LEVANTOU O ESCUDO ===")
-    case "F" | "f":
+    case "F":
         print("=== VOCÊ FUGIU DA BATALHA ===")
     case _:
         print("=== AÇÃO INVALIDA ===")
