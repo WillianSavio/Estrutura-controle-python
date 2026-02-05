@@ -40,7 +40,7 @@ match experiencia:
           
         if experiencia <=99:
             print(" === Você é um jogador INICIANTE ===")
-        elif experiencia <=499:
+        elif experiencia <=500:
             print(" === Você é um jogador INTERMEDIARIO ===")
         else:
             print(" === Você é um jogador VETERANO ===")
