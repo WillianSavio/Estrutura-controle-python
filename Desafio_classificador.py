@@ -55,11 +55,11 @@ ação = input("escolha uma opção:")
 
 
 match ação:
-    case "A":
+    case "A" | "a":
         print("=== VOCê AVANÇOU PARA O ATAQUE!! ===")
-    case "D":
+    case "D" | "d":
         print("=== VOCÊ LEVANTOU O ESCUDO ===")
-    case "F":
+    case "F" | "f":
         print("=== VOCÊ FUGIU DA BATALHA ===")
     case _:
         print("=== AÇÃO INVALIDA ===")
